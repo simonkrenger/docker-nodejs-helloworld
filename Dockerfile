@@ -5,4 +5,6 @@ COPY server.js /
 
 WORKDIR /
 
+EXPOSE 80
+
 CMD ["node", "server.js"]
