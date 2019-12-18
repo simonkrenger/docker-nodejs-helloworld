@@ -1,8 +1,9 @@
 FROM node:alpine
 MAINTAINER Simon Krenger <simon@krenger.ch>
 
-COPY server.js /
+USER 1001
 
+COPY server.js /
 WORKDIR /
 
 EXPOSE 8080
